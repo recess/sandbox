@@ -1,6 +1,6 @@
 #!/bin/bash
 # Does all this even need to be sudo'ed?
-SCRIPT_DIR=`dirname $0`
+SCRIPT_DIR=`pwd`
 
 sudo cp "$SCRIPT_DIR/../../src/php/php-5.3.0/php.ini-development" /usr/local/lib/php.ini
 sudo cp "$SCRIPT_DIR/etc/apache/index.php" /var/www
