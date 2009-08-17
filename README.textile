@@ -22,11 +22,13 @@ Building sturdy software in PHP is hard without the right tools. Recess Sandbox 
 ** Interactive Debugging in IDE
 
 h2. Prerequisites
+
 Recess Sandbox is designed to be run on clean Ubuntu 9.04 virtual machines. Download and install this software to get started:
 * "VirtualBox":http://www.virtualbox.org/wiki/Downloads
 * "Ubuntu 9.04 ISO":http://www.ubuntu.com/getubuntu/download
 
 h2. Install
+
 Once the ubuntu vm is installed extract these scripts to ~/sandbox/ and from a shell script issue these commands:
 cd ~/sandbox/scripts/setup
 ./install-sandbox.sh
