@@ -2,7 +2,7 @@
 
 JAVA=`which java`
 if [ "$JAVA" != "/usr/bin/java" ]; then
-  yes | sudo aptitude install sun-java6-jdk
+  sudo aptitude install -y sun-java6-jdk
 fi
 
 PWD=`pwd`
