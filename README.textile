@@ -1,0 +1,34 @@
+h1. Recess Sandbox
+
+Building sturdy software in PHP is hard without the right tools. Recess Sandbox is a collection of shell scripts to configure a system for serious PHP development in a virtual machine with:
+
+* Server Software
+** Apache 2.2
+** PHP 5.3
+** MySQL Installed
+* PHP IDE
+** Eclipse PDT 2.1
+** Integrated Debugging
+** Syntax auto-completion
+* Interactive Debugging
+** XDebug Installed and Configured
+** Easy integration of XDebug and IDE
+* Profiling
+** Profile your PHP by adding a query string
+** Visualize and inspect your call graph
+** Optimize your software where it matters
+* Unit Testing
+** Code Coverage
+** Interactive Debugging in IDE
+
+h2. Prerequisites
+Recess Sandbox is designed to be run on clean Ubuntu 9.04 virtual machines. Download and install this software to get started:
+* "VirtualBox":http://www.virtualbox.org/wiki/Downloads
+* "Ubuntu 9.04 ISO":http://www.ubuntu.com/getubuntu/download
+
+h2. Install
+Once the ubuntu vm is installed extract these scripts to ~/sandbox/ and from a shell script issue these commands:
+cd ~/sandbox/scripts/setup
+./install-sandbox.sh
+
+You will be prompted for a MySQL root user password and must accept Sun's JDK licensing agreement.
