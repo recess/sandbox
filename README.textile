@@ -34,3 +34,12 @@ cd ~/sandbox/scripts/setup
 ./install-sandbox.sh
 
 You will be prompted for a MySQL root user password and must accept Sun's JDK licensing agreement.
+
+If you plan to use PostgreSQL, you will only be able to access it on the
+local machine by default. The default username is postgres and there is no
+password. You have to be the postgres user to pass the user ident test however.
+So to begin configuration issue the following command:
+
+    sudo -u postgres psql
+
+This will bring you into postgres to continue your custom setup.
